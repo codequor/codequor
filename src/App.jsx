@@ -10,6 +10,7 @@ import Contact from './pages/Contact';
 import ConsultQuote from './pages/ConsultQuote';
 import AdminLogin from './pages/admin/AdminLogin';
 import AdminDashboard from './pages/admin/AdminDashboard';
+import AIFloatingButton from './pages/AI';
 
 const App = () => {
   return (
@@ -22,9 +23,11 @@ const App = () => {
       <Route path='/about' element={<About />} />
       <Route path='/contact' element={<Contact />} />
       <Route path='/consult' element={<ConsultQuote />} />
+      {/* <Route path='/ai' element={<AIFloatingButton />} /> */}
       <Route path='/services' element={<ServicesSection />} />
       <Route path='/admin/login' element={<AdminLogin />} />
       <Route path='/admin/dashboard' element={<AdminDashboard />} />
+
     </Routes>
    
     <Footer/>

@@ -1,10 +1,11 @@
+/* eslint-disable no-unused-vars */
 // ProjectsSection.jsx
 import React from 'react';
 import { motion } from 'framer-motion';
 import { FaExternalLinkAlt, FaGithub } from 'react-icons/fa';
 import bluewave from "../assets/bluewave.png"
-import academy from "../assets/footbal Acedemy.png"
-import weeltin from "../assets/weeltin.png"
+import academy from "../assets/sporty.png"
+import weeltin from "../assets/weeltins.png"
 import weeltin2 from "../assets/weeltin2.png"
 const ProjectsSection = () => {
   const projects = [
