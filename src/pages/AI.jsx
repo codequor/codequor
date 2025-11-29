@@ -87,7 +87,7 @@ export default function AIFloatingButton() {
         
         {/* Chat Bubble – DARK ELEGANT BLUE */}
         {isOpen && (
-          <div className="bg-gradient-to-br from-blue-950 via-blue-900 to-indigo-900 backdrop-blur-2xl rounded-2xl shadow-2xl p-6 max-w-sm border border-blue-700/60">
+          <div className="bg-gradient-to-br from-blue-950 bg-[#fff] via-blue-900 to-indigo-900 backdrop-blur-2xl rounded-2xl shadow-2xl p-6 max-w-sm border border-blue-700/60">
             {/* Header */}
             <div className="flex justify-between items-start mb-5">
               <div className="flex items-center gap-4">
@@ -116,7 +116,9 @@ export default function AIFloatingButton() {
                 Hello! I'm CodeQuor's AI Consultant
               </p>
               <p className="text-sm text-cyan-200 mt-3 leading-relaxed">
-                Ask me anything about software development, tech consulting, digital transformation, system architecture, or hiring top talent in Nigeria.
+
+Business, ideas, people, growth — ask me anything, and I’ll help you make sense of it.
+Whether you're looking to improve your business, organize your team, or bring new ideas to life, I’m here to help — no matter the industry.
               </p>
             </div>
 
@@ -145,7 +147,7 @@ export default function AIFloatingButton() {
           <span className="absolute inset-0 rounded-full bg-indigo-400 opacity-40 animate-ping animation-delay-600"></span>
           
           {/* Tooltip */}
-          <span className="absolute right-full mr-4 top-1/2 -translate-y-1/2 bg-gray-900 text-white px-5 py-3 rounded-xl text-sm whitespace-nowrap opacity-0 group-hover:opacity-100 transition-all pointer-events-none shadow-2xl border border-cyan-400/50 font-medium">
+          <span className="absolute bg-[#fff] right-full mr-4 top-1/2 -translate-y-1/2 bg-gray-900 text-white px-5 py-3 rounded-xl text-sm whitespace-nowrap opacity-0 group-hover:opacity-100 transition-all pointer-events-none shadow-2xl border border-cyan-400/50 font-medium">
             Chat with CodeQuor AI
           </span>
         </button>

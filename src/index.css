@@ -4,3 +4,9 @@
 @tailwind components;
 @tailwind utilities;
 
+
+@keyframes pulse-slow {
+  0%, 100% { opacity: 0.3; }
+  50% { opacity: 0.5; }
+}
+.delay-1000 { animation-delay: 1s; }

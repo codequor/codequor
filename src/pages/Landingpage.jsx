@@ -7,6 +7,8 @@ import ProjectsSection from '../components/ProjectSection';
 import TestimonialsSection from '../components/Testimonials';
 
 import AIFloatingButton from './AI';
+import BrainTrustSection from '../components/BrainTrustSection';
+import WhyChooseUs from '../components/CooseUs';
 const Landingpage = () => {
   return (
     <div>
@@ -14,6 +16,8 @@ const Landingpage = () => {
      
     <WhoWeAre/>
     <ServicesSection/>
+    {/* <BrainTrustSection/> */}
+    <WhyChooseUs/>
     <ProjectsSection/>
     {/* <TestimonialsSection/> */}
     <AIFloatingButton/>
